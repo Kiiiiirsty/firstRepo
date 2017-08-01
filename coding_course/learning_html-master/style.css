@@ -1,0 +1,26 @@
+body{
+  margin: 50px;
+  font-family: 'Karla', sans-serif;
+  color: rgb(255, 221, 119);
+  /* font-family: 'Work Sans', sans-serif; */
+
+
+
+}
+
+a{
+  color:rgb(56, 221, 112);
+}
+
+
+h1{
+  color: rgb(13, 131, 254)
+}
+
+h2{
+  color: rgb(227, 117, 64);
+}
+
+p{
+  color: rgb(165, 72, 231);
+}

@@ -1,0 +1,74 @@
+body{
+  margin: 0px auto;
+  font-family: 'Karla', sans-serif;
+  color: rgb(255, 146, 117);
+  /* font-family: 'Work Sans', sans-serif; */
+}
+
+/*  NAVIGATION STYLE*/
+header{
+  background-color:rgba(255, 255, 255, 0.26);
+  /*background-color: red;*/
+  border-bottom: 1px solid black;
+  height: 30px;
+}
+
+.nav li{
+list-style: none;
+display: inline-block;
+padding-left: 2%;
+}
+
+.nav li:first-child{
+  padding-left:0px;
+}
+/*  hover transitions*/
+.nav a{
+  display: inline-block;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.nav a:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 2px;
+  width: 0px;
+  background: transparant;
+  transition: width .5s cubic-bezier(.76,.01,.48,1), background-color .5s ease;
+  -o-transition: width .5s cubic-bezier(.76,.01,.48,1), background-color .5s ease;
+  -moz-transition: width .5s cubic-bezier(.76,.01,.48,1), background-color .5s ease;
+  -ms-transition: width .5s cubic-bezier(.76,.01,.48,1), background-color .5s ease;
+  -webkit-transition: width .5s cubic-bezier(.76,.01,.48,1), background-color .5s ease;
+
+}
+
+
+.nav a:hover:after {
+  width:100%;
+  background: rgba(255, 99, 97,0.4);
+}
+/*  STACKED NAVIGATION STYLE*/
+
+
+/* HOME MAIN BG*/
+.main{
+  background: url();
+}
+
+
+
+
+
+
+
+/* FOOTER*/
+/* footer social media icons*/
+
+.fa{
+  transition: opacity 0.5s ease;
+}
+.fa:hover{
+   opacity: 0.5;
+ }
