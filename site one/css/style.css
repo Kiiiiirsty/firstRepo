@@ -67,6 +67,11 @@ padding-left: 2%;
   animation: rise 4s ease-in;
 }
 
+
+@keyframes rise {
+
+}
+
 /* HOME MAIN BG*/
 .main{
   background: url();
