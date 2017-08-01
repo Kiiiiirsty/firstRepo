@@ -1,0 +1,23 @@
+/* write your CSS here */
+h1{
+  color: rgb(255, 64, 87);
+}
+
+p{
+  color: rgb(63, 135, 244);
+  font-family: helvetica ,serif;
+}
+
+ul li{
+  background-color: yellow;
+}
+
+h2{
+  color: green;
+  background-color: blue;
+}
+
+
+ol li{
+  background-color: rgb(42, 224, 191);
+}
